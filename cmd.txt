@@ -1,0 +1,13 @@
+
+
+---------------VSCODE
+
+import venv 
+venv.create('./output')
+
+---------------------------terminal
+
+source output/bin/activate
+deactivate
+
+python -m http.server
